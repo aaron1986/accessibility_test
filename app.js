@@ -1,7 +1,7 @@
 // New function	
   function displayImagesAndData() {
     const numImages = 6;
-    const imageFolder = '/imgs/';
+    const imageFolder = './imgs/';
     const csvFile = './imgs/metadata.csv'; // Replace with the path to your CSV file
   
     // Fetch the CSV file
