@@ -1,0 +1,66 @@
+html {
+    font-family: Times, 'Times New Roman', Georgia serif;
+    color: #333333;
+    font-size: 14px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1024px;
+}
+
+.container {
+    padding-left: 5%;
+}
+
+/* Header CSS */
+header  {
+    background-color: #333333;
+    color: #fefefe;
+    margin-left: 5%;
+    width: 90vw;
+    max-width: 1624px;
+}
+
+/* Nav links CSS */
+nav > ul {
+   padding: 5%;
+   max-width: 100%;
+}
+
+ul > li {
+    border-bottom: 3px solid #ff0000;
+    display: inline;
+}
+
+li:hover {
+    border-bottom: 3px solid #ff0000;
+}
+
+li > a {
+    padding:2%;
+    font-size: 120%;
+    color: #fefefe;
+    text-decoration: none;
+    
+}
+
+/* Images gallery CSS */
+#image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+/* News sidebar CSS */
+
+aside {
+    position: absolute;
+  right: 0;
+  margin-right: 20%;
+  top: 30%;
+}
